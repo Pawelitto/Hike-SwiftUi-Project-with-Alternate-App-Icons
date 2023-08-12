@@ -2,20 +2,14 @@
 //  ContentView.swift
 //  Hike
 //
-//  Created by praktykant on 08/08/2023.
+//  Created by Paweł Pietras on 08/08/2023.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        CardView()
     }
 }
 
