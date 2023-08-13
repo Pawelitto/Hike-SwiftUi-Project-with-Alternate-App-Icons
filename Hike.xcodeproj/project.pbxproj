@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C44D0FFA2A8912C300A3A4EF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44D0FF92A8912C300A3A4EF /* SettingsView.swift */; };
+		C44D0FFC2A891B6C00A3A4EF /* CustomListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44D0FFB2A891B6C00A3A4EF /* CustomListRow.swift */; };
 		C47F75772A8216830041E0EC /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F75762A8216830041E0EC /* HikeApp.swift */; };
 		C47F75792A8216830041E0EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F75782A8216830041E0EC /* ContentView.swift */; };
 		C47F757B2A8216850041E0EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47F757A2A8216850041E0EC /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C44D0FF92A8912C300A3A4EF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C44D0FFB2A891B6C00A3A4EF /* CustomListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRow.swift; sourceTree = "<group>"; };
 		C47F75732A8216830041E0EC /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47F75762A8216830041E0EC /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
 		C47F75782A8216830041E0EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C44D0FF82A8912A600A3A4EF /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C47F75782A8216830041E0EC /* ContentView.swift */,
+				C44D0FF92A8912C300A3A4EF /* SettingsView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
 		C47F756A2A8216830041E0EC = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +123,7 @@
 			children = (
 				C4C2D70D2A879CB900EEB970 /* Utility */,
 				C47F75762A8216830041E0EC /* HikeApp.swift */,
-				C47F75782A8216830041E0EC /* ContentView.swift */,
+				C44D0FF82A8912A600A3A4EF /* Screen */,
 				C47F757A2A8216850041E0EC /* Assets.xcassets */,
 				C47F757C2A8216850041E0EC /* Preview Content */,
 				C4C2D70A2A879A2000EEB970 /* Component */,
@@ -151,6 +164,7 @@
 				C4C2D7102A87A88600EEB970 /* CustomButtonView.swift */,
 				C4C2D7162A87DCF800EEB970 /* CustomCircleView.swift */,
 				C4C2D7182A87DE4700EEB970 /* MotionAnimationView.swift */,
+				C44D0FFB2A891B6C00A3A4EF /* CustomListRow.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -297,8 +311,10 @@
 				C47F75792A8216830041E0EC /* ContentView.swift in Sources */,
 				C4C2D7172A87DCF800EEB970 /* CustomCircleView.swift in Sources */,
 				C4C2D7092A8798F200EEB970 /* CardView.swift in Sources */,
+				C44D0FFC2A891B6C00A3A4EF /* CustomListRow.swift in Sources */,
 				C47F75772A8216830041E0EC /* HikeApp.swift in Sources */,
 				C4C2D7112A87A88600EEB970 /* CustomButtonView.swift in Sources */,
+				C44D0FFA2A8912C300A3A4EF /* SettingsView.swift in Sources */,
 				C4C2D7152A87C5E300EEB970 /* GradientButtonStyle.swift in Sources */,
 				C4C2D7192A87DE4700EEB970 /* MotionAnimationView.swift in Sources */,
 				C4C2D70C2A879A5900EEB970 /* CustomBackgroundView.swift in Sources */,
